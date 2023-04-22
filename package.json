@@ -13,8 +13,14 @@
   ],
   "author": "Sven Frankson",
   "license": "ISC",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "devDependencies": {
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^6.0.0",
+    "@babylonjs/materials": "^6.0.0"
   }
 }
